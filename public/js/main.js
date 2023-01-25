@@ -8,7 +8,7 @@ const datahide = document.querySelector('.middle_layer');
 const submitBtn = document.getElementById("submitBtn");
 
 const year = new Date();
-const d = ['MON', 'TUE', 'WED', 'THRU', 'FRI', 'SAT', 'SUN'];
+const d = ['MON', 'TUE', 'WED', 'THUR', 'FRI', 'SAT', 'SUN'];
 const month = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'July', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 day.innerHTML = d[year.getDay() - 1];
 date.innerHTML = year.getDate() + " " + month[year.getMonth()];
